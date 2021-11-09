@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-color: var(--backgroundcolour);
+}
+.banner{
+    width: 100%;
+    background-image: url(../images/homebanner.png);
+    height: var(--bannerheight);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: var(--navheight);
+    filter: brightness(150%);
+}
+.banner h1{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    padding: calc(var(--bannerheight)/2 - 72px) 0px;
+}
+.first-left-panel{
+    padding: 20px 40px;
+    background-color: var(--panelcolor1);
+}
+.first-right-panel{
+    padding: 20px 40px;
+    background-color: var(--panelcolor1);
+}
+.first-right-panel img{
+    width: 100%;
+}
+.divider{
+    margin-left:auto;
+    margin-right:auto;
+    color:black;
+    width:75%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.startcoding{
+    width: 100%;
+}
+.startcoding h2{
+    text-align: center;
+}
+.startcoding h4{
+    margin-top: 20px;
+    text-align: center;
+}
+.signupbutton{
+    display: block;
+    text-align:center;
+    width:25%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px black solid;
+}
+.signupbutton a{
+    text-decoration: none;
+    padding-left: 12px 20px;
+    color: black;
+    font-size: 24px;
+}
+.signupbutton:hover:not(.active){
+    background-color: var(--first);
+    transition: all .7s;
+}
+.signupbutton:hover:not(.active) > .signupbutton a{
+    color: var(--second);
+    transition: all .7s;
+}

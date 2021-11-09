@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Coding Tournament | Contest</title>
+    <link rel="icon" type="image/png" href="images/logo.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css_files/nav.css">
+    <link rel="stylesheet" href="css_files/styles.css">
+    <link rel="stylesheet" href="css_files/footer.css">
+    <link rel="stylesheet" href="css_files/questions.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    :root {
+      --first: #3c43a7;
+      --second: white;
+      --backgroundcolour: #d7dafc;
+      --navheight: 77px;
+      --bannerheight: 680px;
+      --panelcolor1: #d7dafc;
+      --checked: none;
+    }
+  </style>
+  
+</head>
+
+<body onload = "indexTitleWriter()">
+    <nav class="navbar fixed-top navbar-expand-lg ">
+        <div class="logo">
+          <a class="navbar-brand" href="index.html">
+            <img src = "images/logo.png">
+          </a>
+        </div>
+      
+        <button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class = "nav-item">
+              <a class = "nav-link" href="index.html">Home <span class = "sr-only">(current)</span></a>
+            </li>
+            <li class = "nav-item active">
+              <a class = "nav-link" href = "contests.html">Contests</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "registration.html">Registration</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "about.html">About Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class = "nav-item">
+              <a class = "nav-link" href = "login.htmls te">Log In</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="problems">
+      <div class="problemsheader">
+          <h1>Problems</h1>
+      </div>
+      <div class="problem">
+          <div class="title">
+              <h2>Problem 1</h2>
+          </div>
+          <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in nobis amet distinctio quisquam, eveniet velit ipsum vero autem tempore dolore, obcaecati, beatae recusandae quo porro soluta labore nostrum nemo?
+          </div>
+          
+      </div>
+      <div class="problem">
+          <div class="title">
+              <h2>Problem 2</h2>
+          </div>
+          <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in nobis amet distinctio quisquam, eveniet velit ipsum vero autem tempore dolore, obcaecati, beatae recusandae quo porro soluta labore nostrum nemo?
+          </div>
+          
+      </div>
+      <div class="problem">
+          <div class="title">
+              <h2>Problem 3</h2>
+          </div>
+          <div class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in nobis amet distinctio quisquam, eveniet velit ipsum vero autem tempore dolore, obcaecati, beatae recusandae quo porro soluta labore nostrum nemo?
+          </div>
+      </div>
+    </div>
+    
+    <form action="" method = "POST">
+      <div class ="wrapper">
+          <h1 class="title">Submit Solution</h1>
+          <div class = "answerbox"> 
+              <div class="answer"> Your Answer</div>
+              <div><input type="text" name = "answer" placeholder="Input Answer"></div>
+          </div>
+          <div class = "questionbox"> 
+              <div class="number"> Question Number</div>
+              <div><input type="text" name = "questionNumber" placeholder="Input Question Number"></div>
+          </div>
+          <div class="submitbtn">
+              <div coldspan="2"><input type="submit" name="submit" value="Submit Solution"></div>
+          </div>
+      </div>
+    </form>
+
+    <footer>
+      <div class = "footer-content">
+          <div class="footer-section about">
+              <h1><a href="index.html"><img src="images/logo.png"></a></h1>
+              <span><i class="fa fa-phone"></i> 123-456-7890</span>
+              <span><i class = "fa fa-envelope"></i> email@gmail.com</span>
+          </div>
+          <div class="footer-section links">
+              <h1>Quick Links</h1>
+              <ul>
+                  <a href="index.html"><li>Home</li></a>
+                  <a href="contests.html"><li>Contest</li></a>
+                  <a href="registration.html"><li>Registration</li></a>
+                  <a href="about.html"><li>About</li></a>
+                  <a href="#"><li>Log in</li></a>
+              </ul>
+          </div>
+          <div class="footer-section contact-form"></div>
+      </div>
+      <div class = "footer-bottom">
+          &copy; Untitled Coding Tournament
+      </div>
+  </footer>
+
+</body>
+
+</html>

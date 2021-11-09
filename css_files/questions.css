@@ -1,0 +1,84 @@
+.problemsheader{
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+.problem{
+    background-color: white;
+    width: 80%;
+    border-radius: 50%;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+}
+.text{
+    padding: 20px;
+}
+button{
+  margin:0 auto;
+  display:block;
+  width: 50%;
+  height: 50px;
+  color: #fff;
+  border: 1px;
+  background: #5372F0;
+  cursor: pointer;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  }
+button:hover{
+    background: #2c52ed;
+}
+form{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 0px 20px 50px 20px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    border: black 2px solid;
+}
+
+.answerbox{
+    margin-bottom: 15px;
+}
+
+.questionbox{
+    margin-bottom: 15px;
+}
+
+.submitbtn input{
+    background-color: var(--first);
+    border-radius: 5px;
+    border-color: var(--first);
+    color:white;
+}
+
+.submitbtn input:hover{
+    background-color: white;
+    border-radius: 5px;
+    border-color: var(--first);
+    transition: all 0.3s;
+    color:black;
+}
+
+input{
+    text-align: center;
+}
+

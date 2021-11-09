@@ -1,0 +1,52 @@
+.wrapper{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 0px 30px 50px 30px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.1);
+    display: block;
+}
+.wrapper h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tacbox {
+    display:block;
+    padding: 1em;
+    border: 3px solid #ddd;
+    background-color: #eee;
+    max-width: 800px;
+    margin-top:20px;
+  }
+.checkpls{
+    display:var(--checked);
+    color:red;
+    margin-top: 5px;
+    font-size:14px;
+}
+input[type="checkbox"]{
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+  }
+
+input[type="submit"]{
+    height: 50px;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    background: #5372F0;
+    cursor: pointer;
+    border-bottom: 2px solid rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    font-size: 18px;
+    margin-top:20px;
+  }
+input[type="submit"]:hover{
+    background: #2c52ed;
+}

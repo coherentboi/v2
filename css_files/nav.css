@@ -1,0 +1,47 @@
+.navbar{
+    background-color: var(--first);
+    height: var(--navheight);
+}
+.navbar-brand{
+    color: var(--second);
+}
+.navbar-brand img{
+    height: 50px;
+    width: auto;
+}
+.logo a:hover{
+    color: var(--second);
+}
+.nav-link{
+    color: var(--second);
+    text-decoration: none;
+}
+.nav-item{
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.nav-item a:hover{
+    color: var(--first);
+    background-color: var(--second);
+    border-radius: 10px;
+    transition: color 0.7s, border-radius 0s, background-color 0.7s;
+}
+.active{
+    background-color: var(--second);
+}
+.active a{
+    color: var(--first)
+}
+.fa-bars{
+    color: var(--second)
+}
+@media (max-width: 768px){
+    .nav-item{
+        background-color: var(--first);
+        text-align: center;
+        border-radius: 0px;
+    }
+    .active{
+        background-color: var(--second);
+    }
+}

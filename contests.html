@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Coding Tournament | Contest</title>
+    <link rel="icon" type="image/png" href="images/logo.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css_files/nav.css">
+    <link rel="stylesheet" href="css_files/styles.css">
+    <link rel="stylesheet" href="css_files/footer.css">
+    <link rel="stylesheet" href="css_files/agreement.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    :root {
+      --first: #3c43a7;
+      --second: white;
+      --backgroundcolour: #d7dafc;
+      --navheight: 77px;
+      --bannerheight: 680px;
+      --panelcolor1: #d7dafc;
+      --checked: none;
+    }
+  </style>
+  
+</head>
+
+<body onload = "indexTitleWriter()">
+    <nav class="navbar fixed-top navbar-expand-lg ">
+        <div class="logo">
+          <a class="navbar-brand" href="index.html">
+            <img src = "images/logo.png">
+          </a>
+        </div>
+      
+        <button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class = "nav-item">
+              <a class = "nav-link" href="index.html">Home <span class = "sr-only">(current)</span></a>
+            </li>
+            <li class = "nav-item active">
+              <a class = "nav-link" href = "contests.html">Contests</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "registration.html">Registration</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "about.html">About Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class = "nav-item">
+              <a class = "nav-link" href = "login.html">Log In</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class = "container-lg">
+      <div class = "banner">
+        <h1 id="typingEffect"></h1>
+      </div>
+
+      <script src="javascript/typewriting/typewritercontest.js"></script>
+
+    <div class="wrapper">
+      <h1>Rules</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur iste quidem repellendus velit quasi iure adipisci commodi? Numquam placeat hic doloremque odit similique saepe corrupti, laborum voluptatibus ullam! Optio.</p>
+      <div class="tacbox">
+          <input id="checked" type="checkbox" />
+          <label for="checkbox"> I agree to these rules.</label>
+          <p class = "checkpls">Please agree to the rules.</p>
+      </div>
+      <input type="submit" value="Submit" onclick="rules()">
+    </div>
+
+    <script src="javascript/contest/agreement.js"></script>
+
+    <footer>
+      <div class = "footer-content">
+          <div class="footer-section about">
+              <h1><a href="index.html"><img src="images/logo.png"></a></h1>
+              <span><i class="fa fa-phone"></i> 123-456-7890</span>
+              <span><i class = "fa fa-envelope"></i> email@gmail.com</span>
+          </div>
+          <div class="footer-section links">
+              <h1>Quick Links</h1>
+              <ul>
+                  <a href="index.html"><li>Home</li></a>
+                  <a href="contests.html"><li>Contest</li></a>
+                  <a href="registration.html"><li>Registration</li></a>
+                  <a href="about.html"><li>About</li></a>
+                  <a href="login.html"><li>Log in</li></a>
+              </ul>
+          </div>
+          <div class="footer-section contact-form"></div>
+      </div>
+      <div class = "footer-bottom">
+          &copy; Untitled Coding Tournament
+      </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Coding Tournament</title>
+    <link rel="icon" type="image/png" href="images/logo.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css_files/nav.css">
+    <link rel="stylesheet" href="css_files/styles.css">
+    <link rel="stylesheet" href="css_files/footer.css">
+    <link rel="stylesheet" href="css_files/cards.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    :root {
+      --first: #3c43a7;
+      --second: white;
+      --backgroundcolour: #d7dafc;
+      --navheight: 77px;
+      --bannerheight: 680px;
+      --panelcolor1: #d7dafc;
+    }
+  </style>
+  
+</head>
+
+<body onload = "indexTitleWriter()">
+    <nav class="navbar fixed-top navbar-expand-lg ">
+        <div class="logo">
+          <a class="navbar-brand" href="index.html">
+            <img src = "images/logo.png">
+          </a>
+        </div>
+      
+        <button class = "navbar-toggler" type = "button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class = "nav-item active">
+              <a class = "nav-link" href="index.html">Home <span class = "sr-only">(current)</span></a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "contests.html">Contests</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "#">Registration</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "#">About Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class = "nav-item">
+              <a class = "nav-link" href = "login.html">Log In</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "#">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class = "container-lg">
+      <div class = "banner">
+        <h1 id="typingEffect"></h1>
+      </div>
+
+      <script src="javascript/typewriting/typewriter.js"></script>
+
+      <div class = "row">
+        <div class = "first-left-panel col-sm-12 col-md-12 col-lg-6">
+          <h2>Welcome!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas ea! Veritatis quasi temporibus quibusdam ducimus odit labore voluptate harum dolor cupiditate nulla. Reiciendis eius corrupti natus impedit sequi debitis?</p>
+        </div>
+        <div class = "first-right-panel col-sm-12 col-md-12 col-lg-6">
+          <img src="images/welcome.gif">
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <div class = "row">
+        <div class="startcoding">
+          <h2>Want to start coding away?</h2>
+          <h4 class="beta">We aren't ready to show you everything just yet but you can sign up for beta!</h4>
+          <div class="signupbutton">
+              <a href ="registration.html">Sign Up</a>
+          </div>        
+        </div>
+      </div>
+
+      <hr class="divider">
+
+      <div class = "row">
+
+        <div class = "leftcard col-sm-12 col-md-12 col-lg-6">
+          <div class="flip-card">
+            <div class = "flip-card-inner">
+                <div class = "flip-card-front">
+                    <img src="images/logo.png">
+                    <div class = "cardtext">
+                        <h1>Beginner</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ullam in corporis, ea fuga cupiditate quas esse ducimus perspiciatis consectetur. Ullam accusamus est impedit ab exercitationem velit unde, corrupti accusantium.</p>
+                    </div>
+                </div>
+                <div class = "flip-card-back">
+                    <div class="trybutton">Try now</div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class = "rightcard col-sm-12 col-md-12 col-lg-6">
+          <div class="flip-card">
+            <div class = "flip-card-inner">
+                <div class = "flip-card-front">
+                    <img src="images/logo.png">
+                    <div class = "cardtext">
+                        <h1>Intermediate</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ullam in corporis, ea fuga cupiditate quas esse ducimus perspiciatis consectetur. Ullam accusamus est impedit ab exercitationem velit unde, corrupti accusantium.</p>
+                    </div>
+                </div>
+                <div class = "flip-card-back">
+                    <div class="trybutton">Try now</div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer>
+      <div class = "footer-content">
+          <div class="footer-section about">
+              <h1><a href="index.html"><img src="images/logo.png"></a></h1>
+              <span><i class="fa fa-phone"></i> 123-456-7890</span>
+              <span><i class = "fa fa-envelope"></i> email@gmail.com</span>
+          </div>
+          <div class="footer-section links">
+              <h1>Quick Links</h1>
+              <ul>
+                  <a href="index.html"><li>Home</li></a>
+                  <a href="contests.html"><li>Contest</li></a>
+                  <a href="#"><li>Registration</li></a>
+                  <a href="#"><li>About</li></a>
+                  <a href="#"><li>Log in</li></a>
+              </ul>
+          </div>
+          <div class="footer-section contact-form"></div>
+      </div>
+      <div class = "footer-bottom">
+          &copy; Untitled Coding Tournament
+      </div>
+  </footer>
+
+</body>
+
+</html>
